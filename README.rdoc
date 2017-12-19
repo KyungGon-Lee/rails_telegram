@@ -1,0 +1,12 @@
+# 중요한 파일 관리 방법
+
+.gitignore에 /config/secrets.yml 구문을 제일 아래에 추가한다
+
+그리고 secrets.yml에다 telegram_token:(토큰값) 구문을 추가한다
+
+원래 파일에는 'Rails.application.secrets.temegram_token' 으로 참조한다
+
+혹시 실수로 커밋 후에 올렸을 경우
+1. Github repository를 지우고
+2. rm -rf .git 으로 깃을 삭제하고
+3. 다시 한다
